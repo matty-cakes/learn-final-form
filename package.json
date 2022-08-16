@@ -1,0 +1,23 @@
+{
+  "name": "learn-final-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --watch",
+    "serve": "webpack serve --hot --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
+  },
+  "dependencies": {
+    "final-form": "4.20.7"
+  }
+}

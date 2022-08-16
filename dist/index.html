@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <style>
+        html,body{
+            padding: 35px 45px;
+            background: ghostwhite;
+        }
+
+        #form {
+            max-width: 600px;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+    <title>What's Your Final Form?</title>
+</head>
+<body>
+    <h1>What's Your Final Form 🐉</h1>
+    <form id="form">
+        <!-- All hail ??? -->
+        <label for="hero-name-input">Hero Name </label>
+        <input id="hero-name-input" name="heroName" type="text" placeholder="Hero Name">
+        <!-- the <???> ???-->
+        <fieldset style="margin-top: 10px;" class="flex two">
+            <!-- Title Qualifier (Iron Fisted) -->
+            <div>
+                <label for="title-qualifier-input">Title Qualifier</label>
+                <input id="title-qualifier-input" name="titleQualifier" type="text" placeholder="Title Qualifier">
+            </div>
+            <!-- Title King/Queen/Lord -->
+            <div>
+                <label for="title-input">Title</label>
+                <select id="title-input" name="title" placeholder="Title">
+                    <option value="King">King 🤴</option>
+                    <option value="Queen">Queen 👸</option>
+                    <option value="Lord">Lord 🫅</option>
+                    <option value="Angel">Angel 👼</option>
+                    <option value="Demon">Demon 😈</option>
+                    <option value="Guy">Guy 💁‍♂️</option>
+                    <option value="Gal">Gal 💁‍♀️</option>
+                    <option value="Person">Person 💁</option>
+                </select>
+            </div>
+          </fieldset>
+        <!-- of ??? -->
+        <label for="land-input">Land</label>
+        <input id="land-input" name="land" type="text" placeholder="Land">
+        <!-- who weilds the ??? -->
+        <label for="weapon-input">Weapon of Power 🗡</label>
+        <input id="weapon-input" name="weapon" type="text" placeholder="Weapon of Power">
+        <!-- Create phrase -->
+        <button id="submit" class="button">Submit</button>
+    </form>
+</body>
+<script src="./main.js"></script>
+</html>
