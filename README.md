@@ -1,8 +1,10 @@
 # Learn Final Form
 
+![Demo](.meta/demo.png)
+
 ## What is it?
 
-What does it sound like (WDISL)?
+This is project whose intent is to make the learning of final form as simple as possible. There are a varity of issues in the way Final Forms docs and instructional materials are laid out, but this project is an attempt to soften some of those sharp edges to make working with library more fun!
 
 ## How do I set it up
 
